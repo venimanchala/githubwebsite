@@ -19,6 +19,9 @@
 <script>
 function myFunction() {
   alert("The form was submitted");
+  analytics.track('Name submitted', {
+  category: 'Home Page'
+});
 }
 </script>
 
